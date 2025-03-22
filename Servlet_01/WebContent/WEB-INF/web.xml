@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Servlet_01</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>first_servalet</servlet-name>
+    <servlet-class>com.basics.FirstServalet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>first_servalet</servlet-name>
+    <url-pattern>/first</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>second_servalet</servlet-name>
+    <servlet-class>com.basics.SecondServalet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>second_servalet</servlet-name>
+    <url-pattern>/second</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DateTime_servalet</servlet-name>
+    <servlet-class>com.basics.DateTime</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DateTime_servalet</servlet-name>
+    <url-pattern>/date</url-pattern>
+  </servlet-mapping>
+</web-app>
