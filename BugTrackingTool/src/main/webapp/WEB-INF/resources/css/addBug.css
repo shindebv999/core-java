@@ -1,0 +1,27 @@
+label {
+    font-weight: 600;
+    color: #666;
+}
+body {
+  background: #f1f1f1;
+}
+.box8{
+     background: #fff!important;
+    box-shadow: 20px 20px 80px rgb(206, 206, 206)!important;
+}
+.mx-t3{
+  margin-top: -3rem;
+}
+.form-control,textarea{
+border: 1px solid #400485 !important;
+border-radius: 0!important;
+}
+.btn1
+{
+     background-color: #400485!important;
+   
+}
+.txt-color 
+{
+color: #400485!important;
+}
