@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- services -->
+
+	<bean id="adr" class=" com.rt.SpringIoc_04.Address">
+		<property name="city">
+			<value>city</value>
+		</property>
+		<property name="state">
+			<value>MH</value>
+		</property>
+		<property name="country">
+			<value>india</value>
+		</property>
+	</bean>
+
+	<bean id="ac" class=" com.rt.SpringIoc_04.AccountDetails">
+		<property name="accountNo">
+			<value>1432563</value>
+		</property>
+		<property name="banckName">
+			<value>BOI</value>
+		</property>
+	</bean>
+
+	<bean id="Emp" class=" com.rt.SpringIoc_04.Employee" autowire="byName">
+		<property name="id">
+			<value>101</value>
+		</property>
+		<property name="empName">
+			<value>Siya</value>
+		</property>
+		<property name="sal">
+			<value>5000</value>
+		</property>
+		<property name="dept">
+			<value>Accounting</value>
+		</property>
+
+
+	</bean>
+</beans>
